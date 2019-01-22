@@ -1,6 +1,6 @@
 FROM ruby:2.5-alpine3.7
 
-RUN apk --update add make g++ cmake && rm -rf /var/cache/apk/*
+RUN apk --update add make g++ cmake libgit2-dev && rm -rf /var/cache/apk/*
 
 WORKDIR /app
 COPY Gemfile /app/Gemfile
