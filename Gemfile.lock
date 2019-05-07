@@ -48,6 +48,8 @@ GEM
       unicode-display_width (>= 1.4.0, < 1.6)
     rubocop-performance (1.1.0)
       rubocop (>= 0.67.0)
+    rubocop-rspec-focused (1.0.0)
+      rubocop (>= 0.51)
     ruby-progressbar (1.10.0)
     rugged (0.28.1)
     sawyer (0.8.1)
@@ -66,6 +68,7 @@ DEPENDENCIES
   pronto-rubocop
   rubocop
   rubocop-performance
+  rubocop-rspec-focused
 
 BUNDLED WITH
    1.17.3
